@@ -1,0 +1,1279 @@
+CHI
+
+{
+	"preference": null,
+	"pagination": {
+		"total": 7178,
+		"limit": 10,
+		"offset": 0,
+		"total_pages": 718,
+		"current_page": 1
+	},
+	"data": [{
+		"_score": 141.54326,
+		"thumbnail": {
+			"alt_text": "A work made of bronze with green patina.",
+			"width": 1500,
+			"lqip": "data:image\/gif;base64,R0lGODlhAwAFAPMAAEhQT1ZoaFR5eGWIjHqFhHmPkHaVl4GBgo+WmYmanKy5rKOwt8m+vK\/Cv93T0wAAACH5BAAAAAAALAAAAAADAAUAAAQLUC02jAOinUBSQREAOw==",
+
+			https://api.artic.edu/api/v1/artworks/data:image\/gif;base64,R0lGODlhAwAFAPMAAEhQT1ZoaFR5eGWIjHqFhHmPkHaVl4GBgo+WmYmanKy5rKOwt8m+vK\/Cv93T0wAAACH5BAAAAAAALAAAAAADAAUAAAQLUC02jAOinUBSQREAOw==
+			"height": 2250
+		},
+		"api_model": "artworks",
+		"is_boosted": false,
+		"api_link": "https:\/\/api.artic.edu\/api\/v1\/artworks\/656",
+		"id": 656,
+		"title": "Lion (One of a Pair, South Pedestal)",
+		"timestamp": "2021-10-20T03:00:07-05:00"
+	}, {
+		"_score": 119.96421,
+		"thumbnail": {
+			"alt_text": "A work made of oil on board.",
+			"width": 6486,
+			"lqip": "data:image\/gif;base64,R0lGODlhBAAFAPQAACUiHCckHSghGi4nGislHi0mHjMvJDUuJDUwITcwIz07LUY+LUhALktGNExGNFFINGhYOWdcQXVlRYRmSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4EAwC3JMjxJJhgM1QSEkQAgAOw==",
+			"height": 7661
+		},
+		"api_model": "artworks",
+		"is_boosted": false,
+		"api_link": "https:\/\/api.artic.edu\/api\/v1\/artworks\/117241",
+		"id": 117241,
+		"title": "Girl with Cat",
+		"timestamp": "2021-10-20T03:16:56-05:00"
+	}
+
+RIJKS
+
+{
+	"elapsedMilliseconds": 0,
+	"count": 508,
+	"countFacets": {
+		"hasimage": 377,
+		"ondisplay": 1
+	},
+	"artObjects": [{
+		"links": {
+			"self": "http://www.rijksmuseum.nl/api/nl/collection/RP-F-2019-212-6",
+			"web": "http://www.rijksmuseum.nl/nl/collectie/RP-F-2019-212-6"
+		},
+		"id": "nl-RP-F-2019-212-6",
+		"objectNumber": "RP-F-2019-212-6",
+		"title": "Punching Cattle on a Jack Rabbit",
+		"hasImage": true,
+		"principalOrFirstMaker": "anoniem",
+		"longTitle": "Punching Cattle on a Jack Rabbit, anoniem, ca. 1950 - ca. 1960",
+		"showImage": true,
+		"permitDownload": true,
+		"webImage": {
+			"guid": "220f1bdd-2f64-4036-b899-96936e13d79d",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 2050,
+			"height": 1366,
+			"url": "https://lh3.googleusercontent.com/mBQ6knIW0wqCa9lkWYX3CjvyZ8czFE94Wiy9asCZRVxJec5h9izmBWpS5_cSFvNZXpIUv_dQvBkcYU4hI_LuY6fXkdgpuQxOOQn6vDI=s0"
+		},
+		"headerImage": {
+			"guid": "b9c95e61-351c-4e8e-a450-19d91eeec4a9",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 1920,
+			"height": 460,
+			"url": "https://lh3.googleusercontent.com/4DqEYPcwKOI44K0nGkX9JsjJccy2jhrjMBdtZPfJ3QXWNRFmcpnQ0pRWjTBvJrLV3Dq5mXjQgP4KBE-m-qQqEWDeFtcwLTi7o2bqUgM=s0"
+		},
+		"productionPlaces": ["Verenigde Staten van Amerika", "Boston"]
+	}, {
+		"links": {
+			"self": "http://www.rijksmuseum.nl/api/nl/collection/RP-F-2019-212-5",
+			"web": "http://www.rijksmuseum.nl/nl/collectie/RP-F-2019-212-5"
+		},
+		"id": "nl-RP-F-2019-212-5",
+		"objectNumber": "RP-F-2019-212-5",
+		"title": "Punching Cattle on a Jack Rabbit",
+		"hasImage": true,
+		"principalOrFirstMaker": "anoniem",
+		"longTitle": "Punching Cattle on a Jack Rabbit, anoniem, ca. 1960 - ca. 1961",
+		"showImage": true,
+		"permitDownload": true,
+		"webImage": {
+			"guid": "928bbdc1-1ac8-4320-a65c-2193f814a6d9",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 2117,
+			"height": 1400,
+			"url": "https://lh3.googleusercontent.com/xNo1TFwyEPF9KrqidlfJUobix06BhFndvVwscZS-8Dry-nRfEip-d6KsKyPj8RXDNHfQazRg_klATY1nym-U3g_oL1L-gVgb0x1tgxLt=s0"
+		},
+		"headerImage": {
+			"guid": "1b6628b3-31e4-4b27-a35e-68ca466bd0ab",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 1920,
+			"height": 460,
+			"url": "https://lh3.googleusercontent.com/_6WsfdlpqZJcWlVz0Hku5d6g1E6ufBl0BgbeIwAyVg5bqto_QGxqC2yAGwGPE2S2oNOP2Qf4Ad30xBR9Ibo_WQxDsdx8fhC_UJZ3vRVG=s0"
+		},
+		"productionPlaces": ["Verenigde Staten van Amerika", "Boston"]
+	}, {
+		"links": {
+			"self": "http://www.rijksmuseum.nl/api/nl/collection/RP-P-OB-33.723",
+			"web": "http://www.rijksmuseum.nl/nl/collectie/RP-P-OB-33.723"
+		},
+		"id": "nl-RP-P-OB-33.723",
+		"objectNumber": "RP-P-OB-33.723",
+		"title": "Konijnenverkoper",
+		"hasImage": true,
+		"principalOrFirstMaker": "William Ward",
+		"longTitle": "Konijnenverkoper, William Ward, 1796",
+		"showImage": true,
+		"permitDownload": true,
+		"webImage": {
+			"guid": "26aebb93-1239-409c-877b-d7dab4492f6e",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 2500,
+			"height": 1987,
+			"url": "https://lh3.googleusercontent.com/UwGipbXpl7SRYKY5bzJkGyclUGWQB8qgyCw6OIesl2kLr6y60VYffNRVpF8UPGuT5MWjvUjjOV1yfjW_V8UnLed6_V3Qurbn73eo3FU=s0"
+		},
+		"headerImage": {
+			"guid": "b7109110-7c56-4ef7-b318-e21eb5509909",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 1920,
+			"height": 460,
+			"url": "https://lh3.googleusercontent.com/jOv0vKTYuBNug67_RWakUjj8uDBju1va1TRRqT_9g0LRUSYE4IDzsgr8hqiUB0mU6alVZ7NlkUU0pb-QVU9IS25i7cYyowBwdNo-6gpyRQ=s0"
+		},
+		"productionPlaces": ["Londen"]
+	}, {
+		"links": {
+			"self": "http://www.rijksmuseum.nl/api/nl/collection/RP-F-2018-83-5",
+			"web": "http://www.rijksmuseum.nl/nl/collectie/RP-F-2018-83-5"
+		},
+		"id": "nl-RP-F-2018-83-5",
+		"objectNumber": "RP-F-2018-83-5",
+		"title": "Kansas Jack Rabbit on the run",
+		"hasImage": false,
+		"principalOrFirstMaker": "Stovall Studio",
+		"longTitle": "Kansas Jack Rabbit on the run, Stovall Studio, Stovall Studio, 1935",
+		"showImage": false,
+		"permitDownload": true,
+		"webImage": null,
+		"headerImage": {
+			"guid": null,
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 0,
+			"height": 0,
+			"url": null
+		},
+		"productionPlaces": ["Kansas", "Verenigde Staten van Amerika", "Dodge City"]
+	}, {
+		"links": {
+			"self": "http://www.rijksmuseum.nl/api/nl/collection/RP-F-F25484-W",
+			"web": "http://www.rijksmuseum.nl/nl/collectie/RP-F-F25484-W"
+		},
+		"id": "nl-RP-F-F25484-W",
+		"objectNumber": "RP-F-F25484-W",
+		"title": "Reproductie van een prent naar een schilderij van twee kinderen met konijnen door Edwin Landseer",
+		"hasImage": false,
+		"principalOrFirstMaker": "anoniem, Woodbury Permanent Photographic Printing Company",
+		"longTitle": "Reproductie van een prent naar een schilderij van twee kinderen met konijnen door Edwin Landseer, anoniem, Woodbury Permanent Photographic Printing Company, 1878",
+		"showImage": false,
+		"permitDownload": true,
+		"webImage": null,
+		"headerImage": {
+			"guid": null,
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 0,
+			"height": 0,
+			"url": null
+		},
+		"productionPlaces": ["Londen"]
+	}, {
+		"links": {
+			"self": "http://www.rijksmuseum.nl/api/nl/collection/RP-P-1910-3671",
+			"web": "http://www.rijksmuseum.nl/nl/collectie/RP-P-1910-3671"
+		},
+		"id": "nl-RP-P-1910-3671",
+		"objectNumber": "RP-P-1910-3671",
+		"title": "Jongen verbergt een konijn dat achtervolgd wordt door een windhond",
+		"hasImage": true,
+		"principalOrFirstMaker": "Henri Van der Haert",
+		"longTitle": "Jongen verbergt een konijn dat achtervolgd wordt door een windhond, Henri Van der Haert, 1836",
+		"showImage": true,
+		"permitDownload": true,
+		"webImage": {
+			"guid": "8307bf79-eeaa-4f73-ad0c-aa833f8b51b2",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 1957,
+			"height": 2500,
+			"url": "https://lh3.googleusercontent.com/QJQ65Q6IoxWYqkSbZL0kMLJvwq5PoDQiL9SVYBshMsSmMuxeVMjRoFX8ePLnxZPKQPQBUmZKFSZp5yRZ-4Mn00E6umJKPvAYct567a48=s0"
+		},
+		"headerImage": {
+			"guid": "3627cb9d-e4f8-4236-88d9-2205c2344b5b",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 1920,
+			"height": 460,
+			"url": "https://lh3.googleusercontent.com/WxCLb2AhjEbEfDJUubtYTe0WspaJLkAn8jJ7zjIemR0N6Vijw_2WMTLv2L6e0vOanZtBtIDOGpceL0e2gsRX-D_x7qeQx5KdWW_c50ll=s0"
+		},
+		"productionPlaces": ["Brussel (stad)"]
+	}, {
+		"links": {
+			"self": "http://www.rijksmuseum.nl/api/nl/collection/RP-F-2018-8",
+			"web": "http://www.rijksmuseum.nl/nl/collectie/RP-F-2018-8"
+		},
+		"id": "nl-RP-F-2018-8",
+		"objectNumber": "RP-F-2018-8",
+		"title": "Product- of reclamefoto voor Cornaz, fabrikant van konijnenhokken te Chalon-sur-Saône",
+		"hasImage": true,
+		"principalOrFirstMaker": "anoniem",
+		"longTitle": "Product- of reclamefoto voor Cornaz, fabrikant van konijnenhokken te Chalon-sur-Saône, anoniem, ca. 1930",
+		"showImage": true,
+		"permitDownload": true,
+		"webImage": {
+			"guid": "f5bc9855-ff6e-408d-bda9-6c3eeb364a81",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 2500,
+			"height": 1732,
+			"url": "https://lh3.googleusercontent.com/1-HCMG7ymOCeRKVAqegPdYxrEjBdusuZGE0wlEIncPBZbX-EMyqGlQl0tZUCUgkYANOdXij76kdyMTXBd76EdJ9lV615k237BMTxoxq1=s0"
+		},
+		"headerImage": {
+			"guid": "3b738dc8-ac27-4215-8d9c-bc83d6b6ac29",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 1920,
+			"height": 460,
+			"url": "https://lh3.googleusercontent.com/6_jHGz8V0WiJmeTMFZIPH3vbA2zzaAMetM2UaUVr33FgZ5K3i2_zS0Y0YfbCQQPIpARt63vDvgmjAByjp9Ys4_1jiT4ObUcAFGGCMkB3=s0"
+		},
+		"productionPlaces": ["Châlon-sur-Saône"]
+	}, {
+		"links": {
+			"self": "http://www.rijksmuseum.nl/api/nl/collection/RP-T-1988-55",
+			"web": "http://www.rijksmuseum.nl/nl/collectie/RP-T-1988-55"
+		},
+		"id": "nl-RP-T-1988-55",
+		"objectNumber": "RP-T-1988-55",
+		"title": "Dode haas, hangend aan een poot",
+		"hasImage": true,
+		"principalOrFirstMaker": "Johannes Tavenraat",
+		"longTitle": "Dode haas, hangend aan een poot, Johannes Tavenraat, 1819 - 1881",
+		"showImage": true,
+		"permitDownload": true,
+		"webImage": {
+			"guid": "967cc377-5fed-4a54-a73b-a476f1085df6",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 1956,
+			"height": 2500,
+			"url": "https://lh3.googleusercontent.com/jCMUdFQfznmBOvo4XvixVMONCGPorr8uLigXHUEwCs30BY-gVQg7Fd72Ej4oXv_yddhIBFEPV_r3scmvBcY7QDkofg=s0"
+		},
+		"headerImage": {
+			"guid": "bb8319b0-b61e-425c-a117-9d32bb5da5ae",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 1920,
+			"height": 460,
+			"url": "https://lh3.googleusercontent.com/Ix9cmSHjQQVKxyiMwOpsFTyUywcmW-52rUrWKT5xyjjZ65y8zWdYlKguqyQu9ldvR8w_oJEbcZ6UxDCtZ2GnkTFGKzc=s0"
+		},
+		"productionPlaces": []
+	}, {
+		"links": {
+			"self": "http://www.rijksmuseum.nl/api/nl/collection/RP-T-1988-56",
+			"web": "http://www.rijksmuseum.nl/nl/collectie/RP-T-1988-56"
+		},
+		"id": "nl-RP-T-1988-56",
+		"objectNumber": "RP-T-1988-56",
+		"title": "Dode haas, hangend aan een poot",
+		"hasImage": true,
+		"principalOrFirstMaker": "Johannes Tavenraat",
+		"longTitle": "Dode haas, hangend aan een poot, Johannes Tavenraat, 1819 - 1881",
+		"showImage": true,
+		"permitDownload": true,
+		"webImage": {
+			"guid": "87cab46a-6a4f-4465-8ba5-6a422b225752",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 1958,
+			"height": 2500,
+			"url": "https://lh3.googleusercontent.com/jt21Wj7bM-fWDgpGQgP6MHU7ZgaoSSA5hlb6huBvaHdFJQVb0B3Kp3kxQLpsEOVCeCG2uqB7PB4yHe_OKSLjzes5mpQ=s0"
+		},
+		"headerImage": {
+			"guid": "14d581c8-5f78-44b0-b391-3257232504bb",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 1920,
+			"height": 460,
+			"url": "https://lh3.googleusercontent.com/5hUsL-9P3DownUD1XYM9U_7Ay2KA0nzPTKeOplMtKgpfi-aSjXULhdNm561DtHhW33zBQH-GbChapKjvxnJhKf3dUA=s0"
+		},
+		"productionPlaces": []
+	}, {
+		"links": {
+			"self": "http://www.rijksmuseum.nl/api/nl/collection/RP-T-1988-54",
+			"web": "http://www.rijksmuseum.nl/nl/collectie/RP-T-1988-54"
+		},
+		"id": "nl-RP-T-1988-54",
+		"objectNumber": "RP-T-1988-54",
+		"title": "Dode haas, hangend aan een poot",
+		"hasImage": true,
+		"principalOrFirstMaker": "Johannes Tavenraat",
+		"longTitle": "Dode haas, hangend aan een poot, Johannes Tavenraat, 1824",
+		"showImage": true,
+		"permitDownload": true,
+		"webImage": {
+			"guid": "5de0c32d-a2f0-4f9b-a119-976884f388ae",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 1929,
+			"height": 2500,
+			"url": "https://lh3.googleusercontent.com/-jcOaaBZ2CJ_T1OcEDp3qV5je1dYaU0MMT6Mw4fKwIKHkXSbL8MglKLkQX6vDt2_gIcqeKDKGEup1FxUbR1GP1lVqtI=s0"
+		},
+		"headerImage": {
+			"guid": "0203fc45-b429-44f4-aa7e-91694d301254",
+			"offsetPercentageX": 0,
+			"offsetPercentageY": 0,
+			"width": 1920,
+			"height": 460,
+			"url": "https://lh3.googleusercontent.com/buGWtR3_oIIXXxYOZiRYS_nJpE_MjAQxEx6vgFZ2GbMTeRhENmig-2_ljmefJK73aSOFm0-sbb-3Y5KNpGA5MI2By_k=s0"
+		},
+		"productionPlaces": []
+	}],
+	"facets": [{
+		"facets": [{
+			"key": "Carel Adolph Lion Cachet",
+			"value": 26
+		}, {
+			"key": "Theo van Hoytema",
+			"value": 22
+		}, {
+			"key": "Johannes Tavenraat",
+			"value": 21
+		}, {
+			"key": "Daniel de Lafeuille",
+			"value": 15
+		}, {
+			"key": "Julie de Graag",
+			"value": 13
+		}, {
+			"key": "Virgilius Solis",
+			"value": 13
+		}, {
+			"key": "Adriaen Collaert",
+			"value": 11
+		}, {
+			"key": "Bernhard von Gudden",
+			"value": 9
+		}, {
+			"key": "Antonio Tempesta",
+			"value": 8
+		}, {
+			"key": "Bernard Willem Wierink",
+			"value": 5
+		}, {
+			"key": "De Ruyter & Meijer",
+			"value": 5
+		}, {
+			"key": "François Grenier",
+			"value": 5
+		}, {
+			"key": "Philips Galle",
+			"value": 5
+		}, {
+			"key": "Charles Verlat",
+			"value": 4
+		}, {
+			"key": "Gerard Jan Bos",
+			"value": 4
+		}, {
+			"key": "Jan de Haan",
+			"value": 4
+		}, {
+			"key": "Joseph Moerenhout",
+			"value": 4
+		}, {
+			"key": "Monogrammist FLB",
+			"value": 4
+		}, {
+			"key": "Monogrammist MFN",
+			"value": 4
+		}, {
+			"key": "Ali Brouwer-Beiboer",
+			"value": 3
+		}, {
+			"key": "Crispijn van de Passe (II)",
+			"value": 3
+		}, {
+			"key": "Edzard Koning",
+			"value": 3
+		}, {
+			"key": "Francis Conscience",
+			"value": 3
+		}, {
+			"key": "Gerrit Willem Dijsselhof",
+			"value": 3
+		}, {
+			"key": "Hans Weiditz (II)",
+			"value": 3
+		}, {
+			"key": "Ina Rahusen",
+			"value": 3
+		}, {
+			"key": "Jean Bernard",
+			"value": 3
+		}, {
+			"key": "Johan Noman",
+			"value": 3
+		}, {
+			"key": "M. Hemeleers-van Houter",
+			"value": 3
+		}, {
+			"key": "Nicolas Toussaint Charlet",
+			"value": 3
+		}, {
+			"key": "Thijs Mauve",
+			"value": 3
+		}, {
+			"key": "Adolphe Louis Donnadieu",
+			"value": 2
+		}, {
+			"key": "Aegidius Sadeler (II)",
+			"value": 2
+		}, {
+			"key": "Alexander Cranendoncq",
+			"value": 2
+		}, {
+			"key": "Bernard Picart",
+			"value": 2
+		}, {
+			"key": "Boëtius Adamsz. Bolswert",
+			"value": 2
+		}, {
+			"key": "C. Reinhardt",
+			"value": 2
+		}, {
+			"key": "Charles-François Daubigny",
+			"value": 2
+		}, {
+			"key": "David de Coninck",
+			"value": 2
+		}, {
+			"key": "Dorothy Constance Wilhemina Hadkinson",
+			"value": 2
+		}, {
+			"key": "E. Ille",
+			"value": 2
+		}, {
+			"key": "Elisabeth Francisca Nieuwenhuis",
+			"value": 2
+		}, {
+			"key": "Emilius Wilhelmus Dehé",
+			"value": 2
+		}, {
+			"key": "Eugène Verboeckhoven",
+			"value": 2
+		}, {
+			"key": "Frederick Bloemaert",
+			"value": 2
+		}, {
+			"key": "Fresno View Co.",
+			"value": 2
+		}, {
+			"key": "Félicien Rops",
+			"value": 2
+		}, {
+			"key": "Hendrick Hondius (I)",
+			"value": 2
+		}, {
+			"key": "Henri Verstijnen",
+			"value": 2
+		}, {
+			"key": "Herman Johannes van der Weele",
+			"value": 2
+		}, {
+			"key": "Hermann van der Moolen",
+			"value": 2
+		}, {
+			"key": "J.L.L.C. Zentner",
+			"value": 2
+		}, {
+			"key": "Jan Collaert (II)",
+			"value": 2
+		}, {
+			"key": "Jan Luyken",
+			"value": 2
+		}, {
+			"key": "Jan van Vianen",
+			"value": 2
+		}, {
+			"key": "Jean François Benard",
+			"value": 2
+		}, {
+			"key": "Johan Briedé",
+			"value": 2
+		}, {
+			"key": "John Doyle",
+			"value": 2
+		}, {
+			"key": "Joseph Edouard Van Looy",
+			"value": 2
+		}, {
+			"key": "Lucebert",
+			"value": 2
+		}, {
+			"key": "Netty Heyligers",
+			"value": 2
+		}, {
+			"key": "Nicolaes de Bruyn",
+			"value": 2
+		}, {
+			"key": "Pam Georg Rueter",
+			"value": 2
+		}, {
+			"key": "Paul Vera",
+			"value": 2
+		}, {
+			"key": "Pierre Quentin Chedel",
+			"value": 2
+		}, {
+			"key": "Pieter Franciscus Martenasie",
+			"value": 2
+		}, {
+			"key": "Pieter de Goeje",
+			"value": 2
+		}, {
+			"key": "Pieter van Bleeck",
+			"value": 2
+		}, {
+			"key": "Rein van Looy",
+			"value": 2
+		}, {
+			"key": "Richard Gilson Reeve",
+			"value": 2
+		}, {
+			"key": "Stovall Studio",
+			"value": 2
+		}, {
+			"key": "Thomas Sutherland",
+			"value": 2
+		}, {
+			"key": "Théodore",
+			"value": 2
+		}, {
+			"key": "Wally Moes",
+			"value": 2
+		}, {
+			"key": "Walter Crane",
+			"value": 2
+		}, {
+			"key": "William Henry Freeman",
+			"value": 2
+		}, {
+			"key": "Aart van Dobbenburgh",
+			"value": 1
+		}, {
+			"key": "Abraham de Bruyn",
+			"value": 1
+		}, {
+			"key": "Adri Ladenius",
+			"value": 1
+		}, {
+			"key": "Adriaen Matham",
+			"value": 1
+		}, {
+			"key": "Agta Meijer",
+			"value": 1
+		}, {
+			"key": "Albert de Balleroy",
+			"value": 1
+		}, {
+			"key": "Andreas Matthäus Wolfgang",
+			"value": 1
+		}, {
+			"key": "Anna Maria Angenita Gips",
+			"value": 1
+		}, {
+			"key": "Anny Leusink",
+			"value": 1
+		}, {
+			"key": "Anthonie Waterloo",
+			"value": 1
+		}, {
+			"key": "Arie Willem Segboer",
+			"value": 1
+		}, {
+			"key": "August Allebé",
+			"value": 1
+		}, {
+			"key": "Bartholomeus van Lochom",
+			"value": 1
+		}, {
+			"key": "Barthélémy Joseph Fulcran Roger",
+			"value": 1
+		}, {
+			"key": "Benoît Audran (II)",
+			"value": 1
+		}, {
+			"key": "Bramine Hubrecht",
+			"value": 1
+		}, {
+			"key": "C. Picard",
+			"value": 1
+		}, {
+			"key": "Carel Christiaan Antony Last",
+			"value": 1
+		}, {
+			"key": "Carl Heinrich Jacobi",
+			"value": 1
+		}, {
+			"key": "Carton Moore-Park",
+			"value": 1
+		}, {
+			"key": "Caspar Luyken",
+			"value": 1
+		}, {
+			"key": "Catharina Johanna van Kampen",
+			"value": 1
+		}, {
+			"key": "Charles Aubry",
+			"value": 1
+		}, {
+			"key": "Charles Ricketts",
+			"value": 1
+		}],
+		"name": "principalMaker",
+		"otherTerms": 518,
+		"prettyName": 10
+	}, {
+		"facets": [{
+			"key": "prent",
+			"value": 341
+		}, {
+			"key": "tekening",
+			"value": 64
+		}, {
+			"key": "volksprent",
+			"value": 36
+		}, {
+			"key": "schetsboekblad",
+			"value": 31
+		}, {
+			"key": "bladzijde",
+			"value": 22
+		}, {
+			"key": "kalenderblad",
+			"value": 22
+		}, {
+			"key": "ornamentprent",
+			"value": 22
+		}, {
+			"key": "foto",
+			"value": 21
+		}, {
+			"key": "boekillustratie",
+			"value": 20
+		}, {
+			"key": "boekillustratie (ontwerp)",
+			"value": 20
+		}, {
+			"key": "fotomechanische afdruk",
+			"value": 19
+		}, {
+			"key": "albumblad",
+			"value": 18
+		}, {
+			"key": "ex libris",
+			"value": 18
+		}, {
+			"key": "modeprent",
+			"value": 5
+		}, {
+			"key": "reproductie",
+			"value": 5
+		}, {
+			"key": "ontwerp",
+			"value": 4
+		}, {
+			"key": "spotprent",
+			"value": 4
+		}, {
+			"key": "titelpagina",
+			"value": 4
+		}, {
+			"key": "titelprent",
+			"value": 4
+		}, {
+			"key": "paaskaart",
+			"value": 3
+		}, {
+			"key": "prentbriefkaart",
+			"value": 3
+		}, {
+			"key": "carte-de-visite",
+			"value": 2
+		}, {
+			"key": "fotomontage",
+			"value": 2
+		}, {
+			"key": "schilderij",
+			"value": 2
+		}, {
+			"key": "advertentie (drukwerk)",
+			"value": 1
+		}, {
+			"key": "dierstudie",
+			"value": 1
+		}, {
+			"key": "doos",
+			"value": 1
+		}, {
+			"key": "foedraal",
+			"value": 1
+		}, {
+			"key": "jachtgeweer",
+			"value": 1
+		}, {
+			"key": "kabinetfoto",
+			"value": 1
+		}, {
+			"key": "kerstkaart",
+			"value": 1
+		}, {
+			"key": "knipselkunst",
+			"value": 1
+		}, {
+			"key": "menu",
+			"value": 1
+		}, {
+			"key": "omslag",
+			"value": 1
+		}, {
+			"key": "radslotgeweer",
+			"value": 1
+		}, {
+			"key": "rijmprent",
+			"value": 1
+		}, {
+			"key": "schetsboek",
+			"value": 1
+		}, {
+			"key": "surimono",
+			"value": 1
+		}, {
+			"key": "wenskaart",
+			"value": 1
+		}],
+		"name": "type",
+		"otherTerms": 0,
+		"prettyName": 3
+	}, {
+		"facets": [{
+			"key": "19",
+			"value": 230
+		}, {
+			"key": "20",
+			"value": 112
+		}, {
+			"key": "16",
+			"value": 71
+		}, {
+			"key": "17",
+			"value": 54
+		}, {
+			"key": "18",
+			"value": 41
+		}],
+		"name": "dating.period",
+		"otherTerms": 0,
+		"prettyName": 4
+	}, {
+		"facets": [{
+			"key": "Amsterdam",
+			"value": 57
+		}, {
+			"key": "Nederland",
+			"value": 49
+		}, {
+			"key": "Parijs",
+			"value": 34
+		}, {
+			"key": "Antwerpen (stad)",
+			"value": 31
+		}, {
+			"key": "Duitsland",
+			"value": 22
+		}, {
+			"key": "Londen",
+			"value": 19
+		}, {
+			"key": "München",
+			"value": 15
+		}, {
+			"key": "Neurenberg",
+			"value": 15
+		}, {
+			"key": "Den Haag",
+			"value": 14
+		}, {
+			"key": "Italië",
+			"value": 12
+		}, {
+			"key": "? Nederland",
+			"value": 10
+		}, {
+			"key": "Frankrijk",
+			"value": 10
+		}, {
+			"key": "Haarlem",
+			"value": 9
+		}, {
+			"key": "Rome",
+			"value": 7
+		}, {
+			"key": "Engeland",
+			"value": 6
+		}, {
+			"key": "Geldern",
+			"value": 6
+		}, {
+			"key": "Vaticaanstad",
+			"value": 6
+		}, {
+			"key": "Japan",
+			"value": 5
+		}, {
+			"key": "Rotterdam",
+			"value": 5
+		}, {
+			"key": "Florence",
+			"value": 4
+		}, {
+			"key": "Utrecht",
+			"value": 4
+		}, {
+			"key": "Zaltbommel",
+			"value": 4
+		}, {
+			"key": "Brussel (stad)",
+			"value": 3
+		}, {
+			"key": "Fresno",
+			"value": 3
+		}, {
+			"key": "Hilversum",
+			"value": 3
+		}, {
+			"key": "Lage Landen",
+			"value": 3
+		}, {
+			"key": "Leiden",
+			"value": 3
+		}, {
+			"key": "Noordelijke Nederlanden",
+			"value": 3
+		}, {
+			"key": "Schaarbeek",
+			"value": 3
+		}, {
+			"key": "Turnhout",
+			"value": 3
+		}, {
+			"key": "Venetië",
+			"value": 3
+		}, {
+			"key": "Verenigde Staten van Amerika",
+			"value": 3
+		}, {
+			"key": "Arnhem",
+			"value": 2
+		}, {
+			"key": "Boston",
+			"value": 2
+		}, {
+			"key": "Europa",
+			"value": 2
+		}, {
+			"key": "Praag",
+			"value": 2
+		}, {
+			"key": "Zuid-Nederland",
+			"value": 2
+		}, {
+			"key": "Zuidelijke Nederlanden",
+			"value": 2
+		}, {
+			"key": "? Amsterdam",
+			"value": 1
+		}, {
+			"key": "? Neurenberg",
+			"value": 1
+		}, {
+			"key": "Ansbach",
+			"value": 1
+		}, {
+			"key": "België",
+			"value": 1
+		}, {
+			"key": "Bergen (Noord-Holland)",
+			"value": 1
+		}, {
+			"key": "Berlijn",
+			"value": 1
+		}, {
+			"key": "Brugge",
+			"value": 1
+		}, {
+			"key": "Chelsea",
+			"value": 1
+		}, {
+			"key": "Châlon-sur-Saône",
+			"value": 1
+		}, {
+			"key": "Danzig",
+			"value": 1
+		}, {
+			"key": "Deventer",
+			"value": 1
+		}, {
+			"key": "Dodge City",
+			"value": 1
+		}, {
+			"key": "Doetinchem",
+			"value": 1
+		}, {
+			"key": "Edinburgh",
+			"value": 1
+		}, {
+			"key": "Gorinchem",
+			"value": 1
+		}, {
+			"key": "Hamburg",
+			"value": 1
+		}, {
+			"key": "Harderwijk",
+			"value": 1
+		}, {
+			"key": "Ieper",
+			"value": 1
+		}, {
+			"key": "Kansas",
+			"value": 1
+		}, {
+			"key": "Leipzig",
+			"value": 1
+		}, {
+			"key": "Luik",
+			"value": 1
+		}, {
+			"key": "Napels",
+			"value": 1
+		}, {
+			"key": "Nazaré",
+			"value": 1
+		}, {
+			"key": "Nijmegen",
+			"value": 1
+		}, {
+			"key": "Noord-Nederland",
+			"value": 1
+		}, {
+			"key": "Rouen",
+			"value": 1
+		}, {
+			"key": "Saint-Germain-en-Laye",
+			"value": 1
+		}, {
+			"key": "Salem",
+			"value": 1
+		}, {
+			"key": "Silezië",
+			"value": 1
+		}, {
+			"key": "Sneek",
+			"value": 1
+		}, {
+			"key": "Spanje",
+			"value": 1
+		}, {
+			"key": "Tokyo",
+			"value": 1
+		}, {
+			"key": "Udenhout",
+			"value": 1
+		}, {
+			"key": "Weimar",
+			"value": 1
+		}, {
+			"key": "Zeeland",
+			"value": 1
+		}],
+		"name": "place",
+		"otherTerms": 0,
+		"prettyName": 2
+	}, {
+		"facets": [{
+			"key": "papier",
+			"value": 487
+		}, {
+			"key": "inkt",
+			"value": 41
+		}, {
+			"key": "krijt",
+			"value": 36
+		}, {
+			"key": "potlood",
+			"value": 35
+		}, {
+			"key": "Oost-Indische inkt",
+			"value": 16
+		}, {
+			"key": "fotodrager",
+			"value": 15
+		}, {
+			"key": "karton",
+			"value": 15
+		}, {
+			"key": "chine collé",
+			"value": 14
+		}, {
+			"key": "dekverf",
+			"value": 7
+		}, {
+			"key": "waterverf",
+			"value": 6
+		}, {
+			"key": "barietpapier",
+			"value": 4
+		}, {
+			"key": "Japans papier",
+			"value": 3
+		}, {
+			"key": "drukinkt",
+			"value": 3
+		}, {
+			"key": "houtskool",
+			"value": 2
+		}, {
+			"key": "olieverf",
+			"value": 2
+		}, {
+			"key": "Chinees papier",
+			"value": 1
+		}, {
+			"key": "Oosters papier",
+			"value": 1
+		}, {
+			"key": "been",
+			"value": 1
+		}, {
+			"key": "calqueerpapier",
+			"value": 1
+		}, {
+			"key": "doek",
+			"value": 1
+		}, {
+			"key": "hertshoorn",
+			"value": 1
+		}, {
+			"key": "ijzer",
+			"value": 1
+		}, {
+			"key": "kalk",
+			"value": 1
+		}, {
+			"key": "koper",
+			"value": 1
+		}, {
+			"key": "linnen",
+			"value": 1
+		}, {
+			"key": "notenhout",
+			"value": 1
+		}, {
+			"key": "parelmoer",
+			"value": 1
+		}, {
+			"key": "verf",
+			"value": 1
+		}],
+		"name": "material",
+		"otherTerms": 0,
+		"prettyName": 5
+	}, {
+		"facets": [{
+			"key": "etsen",
+			"value": 127
+		}, {
+			"key": "graveren (drukprocedé)",
+			"value": 94
+		}, {
+			"key": "lithografie (techniek)",
+			"value": 51
+		}, {
+			"key": "boekdruk",
+			"value": 47
+		}, {
+			"key": "pen",
+			"value": 46
+		}, {
+			"key": "houtsnede",
+			"value": 44
+		}, {
+			"key": "penseel",
+			"value": 34
+		}, {
+			"key": "kleurenlithografie (procedé)",
+			"value": 30
+		}, {
+			"key": "plaattoon",
+			"value": 25
+		}, {
+			"key": "houtgravure",
+			"value": 19
+		}, {
+			"key": "kleuren",
+			"value": 15
+		}, {
+			"key": "met de hand kleuren",
+			"value": 14
+		}, {
+			"key": "lichtdruk",
+			"value": 12
+		}, {
+			"key": "ontwikkelgelatinezilverdruk",
+			"value": 12
+		}, {
+			"key": "cliché",
+			"value": 11
+		}, {
+			"key": "droge naald",
+			"value": 9
+		}, {
+			"key": "aquatint",
+			"value": 8
+		}, {
+			"key": "albuminedruk",
+			"value": 7
+		}, {
+			"key": "autotypie",
+			"value": 6
+		}, {
+			"key": "hoogdruk",
+			"value": 5
+		}, {
+			"key": "kleurenhoutsnede",
+			"value": 5
+		}, {
+			"key": "toonlithografie",
+			"value": 5
+		}, {
+			"key": "mezzotint",
+			"value": 4
+		}, {
+			"key": "plakken",
+			"value": 4
+		}, {
+			"key": "roulette",
+			"value": 4
+		}, {
+			"key": "pochoir",
+			"value": 3
+		}, {
+			"key": "retroussage",
+			"value": 3
+		}, {
+			"key": "Woodburytypie",
+			"value": 2
+		}, {
+			"key": "blinddruk",
+			"value": 2
+		}, {
+			"key": "doorgriffelen",
+			"value": 2
+		}, {
+			"key": "kleurendruk",
+			"value": 2
+		}, {
+			"key": "knippen",
+			"value": 2
+		}, {
+			"key": "linoleumsnede",
+			"value": 2
+		}, {
+			"key": "penlithografie",
+			"value": 2
+		}, {
+			"key": "crayonmanier",
+			"value": 1
+		}, {
+			"key": "daglichtgelatinezilverdruk",
+			"value": 1
+		}, {
+			"key": "kleurenautotypie",
+			"value": 1
+		}, {
+			"key": "krijtlithografie",
+			"value": 1
+		}, {
+			"key": "schrijven",
+			"value": 1
+		}, {
+			"key": "snijden",
+			"value": 1
+		}, {
+			"key": "stippelwerk",
+			"value": 1
+		}, {
+			"key": "vouwen",
+			"value": 1
+		}, {
+			"key": "zinkets",
+			"value": 1
+		}],
+		"name": "technique",
+		"otherTerms": 0,
+		"prettyName": 8
+	}, {
+		"facets": [{
+			"key": " #737C84",
+			"value": 26
+		}, {
+			"key": " #E0CC91",
+			"value": 24
+		}, {
+			"key": "#FBF6E1",
+			"value": 23
+		}, {
+			"key": " #2F4F4F",
+			"value": 20
+		}, {
+			"key": " #FBF6E1",
+			"value": 12
+		}, {
+			"key": " #000000",
+			"value": 10
+		}, {
+			"key": "#737C84",
+			"value": 8
+		}, {
+			"key": " #B35A1F",
+			"value": 4
+		}, {
+			"key": "#E0CC91",
+			"value": 4
+		}, {
+			"key": " #F49B7A",
+			"value": 3
+		}, {
+			"key": " #B5BFCC",
+			"value": 2
+		}, {
+			"key": "#000000",
+			"value": 2
+		}, {
+			"key": " #E09714",
+			"value": 1
+		}],
+		"name": "normalized32Colors.hex",
+		"otherTerms": 139,
+		"prettyName": 9
+	}]
+}

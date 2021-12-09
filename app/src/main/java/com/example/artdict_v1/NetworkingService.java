@@ -11,19 +11,26 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.LinkPermission;
+import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import android.os.Handler;
 import java.util.logging.LogRecord;
 
 public class NetworkingService {
-    String artURL = "https://api.artic.edu/api/v1/artworks/";
-    String searchURL1 = "https://api.artic.edu/api/v1/artworks/search?q=";
-    String SearchURL2 = "&limit=50";
 
-    String imgURL1 = "https://www.artic.edu/iiif/2/";
-    String imgURL2 = "/full/843,/0/default.jpg";
-    String imgURL3 = "/full/200,/0/default.jpg";
+    String chiURL = "https://api.artic.edu/api/v1/artworks/";
+    String chiSearchURL1 = "search?q=";
+    String chiSearchURL2 = "&limit=20";
+
+    String chiImgURL1 = "https://www.artic.edu/iiif/2/";
+    String chiImgURL2 = "/full/843,/0/default.jpg";
+    String chiImgURLs = "/full/200,/0/default.jpg";
+
+    String rijksQURL = "https://www.rijksmuseum.nl/api/nl/collection?";
+    private String apiKeyR = "key=VaUtnjGb";
+    String rijksSearch = "&culture=en&imgonly=true&q=";
+    String rijksDetailURL = "https://www.rijksmuseum.nl/api/nl/collection/";
 
     public static final ExecutorService networkingExecutor = Executors.newFixedThreadPool(4);
     static Handler networkHandler = new Handler(Looper.getMainLooper());
@@ -35,18 +42,30 @@ public class NetworkingService {
 
     networkingListener listener;
 
+    //fetch search results
     public void fetchArtListData(String text) {
-        String completedURL = searchURL1 + text + SearchURL2;
+        String completedURLChi = chiURL+chiSearchURL1 + text + chiSearchURL2;
+        String completedURLRijks = rijksQURL+ apiKeyR + rijksSearch + text;
+        connect(completedURLChi);
+        connect(completedURLRijks);
+    }
+
+    public void fetchDetailData(int id) {
+        String completedURLChi = chiURL + id;
+        String completedURLRijks = rijksDetailURL + id + "?" + apiKeyR;
+        connect(completedURLChi);
+        connect(completedURLRijks);
+    }
+
+    //second call with object id to get img_id
+    public void getImgID(String id) {
+        String completedURL = chiURL + id;
         connect(completedURL);
     }
 
-    public void fetchArtDetailData(int id) {
-        String completedURL = artURL + id;
-        connect(completedURL);
-    }
-
-    public void getThumbnailImageData(String img_id) {
-        String completedURL = imgURL1 + img_id +imgURL3;
+    public void getThumbnailImageDatafromChi(String img_id) {
+        //parse img_id from object in model
+        String completedURL = chiImgURL1 + img_id +chiImgURLs;
         //only get the image of smaller size
         networkingExecutor.execute((new Runnable() {
             @Override
@@ -67,13 +86,11 @@ public class NetworkingService {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-
-
             }
         }));
     }
-    public void getImageData(String img_id) {
-        String completedURL = imgURL1 + img_id +imgURL2;
+    public void getImageDatafromChi(String img_id) {
+        String completedURL = chiImgURL1 + img_id +chiImgURL2;
         networkingExecutor.execute((new Runnable() {
             @Override
             public void run() {
@@ -93,8 +110,30 @@ public class NetworkingService {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+            }
+        }));
+    }
 
-
+    public void getImageDatafromRijks(String img_url) {
+        networkingExecutor.execute((new Runnable() {
+            @Override
+            public void run() {
+                URL urlObj = null;
+                try {
+                    urlObj = new URL(img_url);
+                    InputStream in = ((InputStream) urlObj.getContent());
+                    Bitmap imageData = BitmapFactory.decodeStream(in);
+                    networkHandler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            listener.APIImgListener(imageData);
+                        }
+                    });
+                } catch (MalformedURLException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         }));
     }
@@ -125,13 +164,9 @@ public class NetworkingService {
                             @Override
                             public void run() {
                                 listener.APIlistener(finalJson);
-
                             }
                         });
-
-
                     }
-
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
                 } catch (IOException e) {
@@ -140,11 +175,8 @@ public class NetworkingService {
                 finally {
                     httpURLConnection.disconnect();
                 }
-
             }
         });
     }
-
-
 
 }
